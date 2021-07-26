@@ -39,8 +39,8 @@ class _MyHomePageState extends State<MyHomePage> {
       if (firstNameController.text.isNotEmpty && 
           lastNameController.text.isNotEmpty) {
         message = 'Hello ${firstNameController.text}, ${lastNameController.text}';
-        firstNameController.clear();
-        lastNameController.clear();
+        // firstNameController.clear();
+        // lastNameController.clear();
       }
     });
   }
