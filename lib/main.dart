@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
       // check to make sure both text fields have values before displaying them
       if (firstNameController.text.isNotEmpty && 
           lastNameController.text.isNotEmpty) {
-        message = '${firstNameController.text}, ${lastNameController.text}';
+        message = 'Hello ${firstNameController.text}, ${lastNameController.text}';
         firstNameController.clear();
         lastNameController.clear();
       }
